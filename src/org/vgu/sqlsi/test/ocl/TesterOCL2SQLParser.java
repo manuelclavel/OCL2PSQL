@@ -26,8 +26,8 @@ public class TesterOCL2SQLParser {
          * be found in Documentation
          */
 //        String filePath = "/Users/thian/prjcts/eclipseWork/OCL2PSQL/Documentation/CarPerson_context.json";
-        String filePath = "C:\\Users\\ngpbh\\eclipse-workspace\\sqlsi\\Documentation\\CarPerson_context.json";
-//        String filePath = "/Users/clavel/VGU/Repositories/SqlSI/Documentation/CarPerson_context.json";
+//        String filePath = "C:\\Users\\ngpbh\\eclipse-workspace\\sqlsi\\Documentation\\CarPerson_context.json";
+        String filePath = "/Users/clavel/VGU/Repositories/SqlSI/Documentation/CarPerson_context.json";
 
         OCL2SQLParser ocl2psqlParser = new OCL2SQLParser();
         ocl2psqlParser.setPlainUMLContextFromFile(filePath);

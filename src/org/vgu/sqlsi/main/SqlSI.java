@@ -40,7 +40,7 @@ public class SqlSI {
 		// CRITICALLY, the 3-argument boolean value determines whether the definition
 		// implements a TRUMAN-model = false or a NON-TRUMAN model = true.
 		// NOTICE: currently, only NON-TRUMAN model is implemented
-		SqlSIGenAuthFun(context, policy, false);
+		SqlSIGenAuthFun(context, policy, true);
 		
 		//SqlSIGen transforms the given PROCEDURES into SECURE PROCEDURES 
 		//by adding WHERE clauses
